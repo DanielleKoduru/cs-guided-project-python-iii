@@ -22,4 +22,15 @@ def print_pairs(items):
 
 
 def do_a_bunch_of_stuff(items):
-    last_idx = len(items) = 1
+    last_idx = len(items) - 1
+    print(last_idx)
+
+    middle_idx = len(items) / 2
+    idx = 0
+    while idx < middle_idx:
+        print("something")
+        idx = idx + 1
+
+    for item in items:
+        print(item)
+        print(item)
